@@ -1,0 +1,190 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: 0px;
+  background-image: url("/bookingtrial/userback.jpg");
+  background-size: 1550px 900px;
+  background-repeat: no-repeat;
+
+}
+
+.topnav {
+  height: 65px;
+  background-color: #f8f9fa80;
+  /*background-image: linear-gradient(#660000,#b32626);*/
+  overflow: hidden;
+  margin-bottom:20px;
+}
+h1{
+	  font-size: 20px;
+	  padding: 20px 16px;
+	  text-decoration: none;
+	  float: right;
+}
+
+.title{
+	font-size: 20px;
+	  padding: 20px 16px;
+	  text-decoration: none;
+	float:left
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.topnav a:hover {
+  background-color: #FDEEE3;
+    color: #D08504;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.card1 {
+
+    display: inline-block;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 3px 3px 2px rgb(220, 216, 216);
+}
+
+.card1:hover {
+    background-color: #d9d9d9;
+}
+
+.fheader{
+		margin:30px;
+		display:flex;
+		justify-content: center;
+  align-items: center;
+}
+
+#heading{
+	 font-size: 40px;
+	  padding: 16px 16px;
+	  text-decoration: none;
+
+}
+.cardrate{
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19), 0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19), 0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+  background-color: rgb(255, 255, 255);
+  padding: 0.7rem;
+  margin-top:7px;
+  width: 48rem;
+}
+.rating-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.rating-text p {
+  color: rgba(0, 0, 16, 0.8);
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.rating {
+  background-color: rgba(0, 0, 16, 0.8);
+  padding: 0.6rem 0.6rem 0.3rem 0.6rem;
+  border-radius: 2.2rem;
+}
+
+svg {
+  fill: rgb(242, 242, 242);
+  height: 3.6rem;
+  width: 3.6rem;
+  margin: 0.2rem;
+}
+
+.rating-form-2 svg {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.5rem;
+}
+
+#radios label {
+  position: relative;
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="radio"] + svg {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+input + svg {
+  cursor: pointer;
+}
+
+
+
+input[class="super-happy"]:hover + svg,
+input[class="super-happy"]:checked + svg,
+input[class="super-happy"]:focus + svg {
+  fill: rgb(0, 109, 217);
+}
+
+input[class="happy"]:hover + svg,
+input[class="happy"]:checked + svg,
+input[class="happy"]:focus + svg {
+  fill: rgb(0, 204, 79);
+}
+
+input[class="neutral"]:hover + svg,
+input[class="neutral"]:checked + svg,
+input[class="neutral"]:focus + svg {
+  fill: rgb(232, 214, 0);
+}
+
+input[class="sad"]:hover + svg,
+input[class="sad"]:checked + svg,
+input[class="sad"]:focus + svg {
+  fill: rgb(229, 132, 0);
+}
+
+input[class="super-sad"]:hover + svg,
+input[class="super-sad"]:checked + svg,
+input[class="super-sad"]:focus + svg {
+  fill: rgb(239, 42, 16);
+}
+*/
+.sub-btn{
+	justify-content: space-between;
+	display: flex;
+	align-items:center;
+}

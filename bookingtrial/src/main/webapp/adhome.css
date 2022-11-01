@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: 0px;
+}
+
+.topnav {
+  height: 65px;
+  background-color: #FDEEE3;
+  /*background-image: linear-gradient(#660000,#b32626);*/
+  overflow: hidden;
+}
+
+h1{
+	  font-size: 20px;
+	  padding: 20px 16px;
+	  text-decoration: none;
+	  float: right;
+}
+
+.title{
+	font-size: 20px;
+	  padding: 20px 16px;
+	  text-decoration: none;
+	float:left
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav-right a:hover {
+  background-color: #FDEEE3;
+    color: #D08504;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.card1 {
+
+    display: inline-block;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 3px 3px 2px rgb(220, 216, 216);
+}
+
+.card1:hover {
+    background-color: #d9d9d9;
+}
+
