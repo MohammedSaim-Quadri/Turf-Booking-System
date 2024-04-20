@@ -17,24 +17,27 @@ The Turf Booking System is a web application designed to streamline the process 
 
 ## Technologies Used
 
-- Server-Side Rendering (SSR) principles for rendering dynamic content on the server side
-- Node.js: JavaScript runtime for building server-side applications
-- Express.js: Web application framework for Node.js
-- MongoDB: NoSQL database for storing turf and booking data
-- Passport.js: Authentication middleware for Node.js
-- Bootstrap: Front-end framework for designing responsive web applications
-- HTML/CSS/JavaScript: Front-end development languages
-- Heroku: Cloud platform for deploying and hosting web applications
+- JSP (JavaServer Pages): Technology for building dynamic web pages using Java
+- MySQL: Relational database management system for storing turf and booking data
+- Apache Tomcat: Web server and servlet container for running Java-based web applications
+- HTML: Markup language for creating web pages
+- CSS: Styling language for designing web pages
 
-## Installation
+## Installation and Running
 
 1. Clone the repository:
-git clone repository name
 
-## Run the application
+  git clone repository name
 
-cd turf-booking-system
-npm install
+2. Configure Apache Tomcat on your local system. You may refer to the Apache Tomcat documentation for installation and configuration instructions.
+
+3. Set up MySQL and create the necessary database and tables using the provided SQL scripts.
+
+4. Deploy the application to Apache Tomcat or any Java application server.
+
+5. Start Apache Tomcat or your Java application server.
+
+6. Access the Turf Booking System through your web browser by navigating to the appropriate URL (e.g., http://localhost:8080/turf-booking-system).
 
 ## Contributing
 
